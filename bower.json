@@ -15,8 +15,8 @@
         "dist/nittro.min.css"
     ],
     "ignore": [
-        "**/*",
-        "!dist/nittro.min.*",
-        "!Readme.md"
+        "**/.*",
+        "gulpfile.js",
+        "package.json"
     ]
 }

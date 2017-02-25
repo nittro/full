@@ -10,10 +10,6 @@
         "type": "git",
         "url": "https://github.com/nittro/full.git"
     },
-    "main": [
-        "dist/nittro.min.js",
-        "dist/nittro.min.css"
-    ],
     "ignore": [
         "**/.*",
         "gulpfile.js",

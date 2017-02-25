@@ -54,10 +54,11 @@ gulp.task('css', function () {
         .pipe(gulp.dest('dist/'));
 });
 
-gulp.task('zip', ['js', 'css'], function () {
+gulp.task('zip', function () {
     return gulp.src(['dist/nittro.min.*', 'Readme.md'])
         .pipe(zip(info.name + '-' + info.version + '.zip'))
         .pipe(gulp.dest('dist/'));
 });
 
-gulp.task('default', ['js', 'css', 'zip']);
+gulp.task('build', ['js', 'css']);
+gulp.task('release', ['zip']);

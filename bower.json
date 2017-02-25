@@ -1,0 +1,22 @@
+{
+    "name": "nittro-full",
+    "description": "Nittro pre-built package containing all the components",
+    "homepage": "https://www.nittro.org",
+    "license": "MIT",
+    "authors": [
+        "danik <me@subsonic.cz>"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nittro/full.git"
+    },
+    "main": [
+        "dist/nittro.min.js",
+        "dist/nittro.min.css"
+    ],
+    "ignore": [
+        "**/*",
+        "!dist/nittro.min.*",
+        "!Readme.md"
+    ]
+}

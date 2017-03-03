@@ -11,7 +11,7 @@
     "type": "git",
     "url": "https://github.com/nittro/full.git"
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "devDependencies": {
     "nittro-core": "^2.0.0",
     "nittro-datetime": "^2.0.0",
